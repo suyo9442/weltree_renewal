@@ -1,17 +1,17 @@
 $(function(){
     var $firstMenu = $('nav > ul.depth1 > li'),
         $header = $('#header .container1500'),
-        $logo = $('#header .container1200 > a > .logo')
+        $logo = $('#header .container1200 > a > .logo'),
         $depth1 = $('#header nav > ul.depth1 > li > a')
 
         $firstMenu.hover(
             function(){
                 $header.css({
                     height: "370px",
-                    background: "url(/img/menu.jpg)"
+                    background: "url(./img/menu.jpg)"
                 }),
                 $logo.css({
-                    background:"url('/img/header_logo2.png')"
+                    background:"url('./img/header_logo2.png')"
                 }),
                 $depth1.css("color","#000")
             },
@@ -21,11 +21,12 @@ $(function(){
                     background:"none"
                 }),
                 $logo.css({
-                    background:"url('/img/header_logo1.png')"
+                    background:"url('./img/header_logo1.png')"
                 }),
                 $depth1.css("color","#fff")
             }
         )
+
 
         $(function(){
             var header = $('#header'); //헤더를 변수에 넣기
