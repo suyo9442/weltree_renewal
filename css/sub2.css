@@ -178,6 +178,7 @@
     position: absolute;
     left: -150px;
     bottom: 0;
+    padding-bottom: 3px;
 }
 #title .sub_nav ul{
     display: flex;

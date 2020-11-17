@@ -177,13 +177,13 @@
 }
 
 /* 서브 네비게이션 */
-/* 서브 네비게이션 */
 #title .sub_nav {
     width: 1500px; height: 70px;
     background-color: #fff;
     position: absolute;
     left: -150px;
     bottom: 0;
+    padding-bottom: 3px;
 }
 #title .sub_nav ul{
     display: flex;
@@ -194,13 +194,17 @@
 }
 #title .sub_nav ul li a {
     display: block;
-    padding-left: 35px;
+    margin-left: 35px;
     line-height: 70px;
     font-size: 17px;
     font-weight: 300;
 }
 #title .sub_nav ul li:first-child a {
     padding-left: 0;
+}
+#title .sub_nav ul li:last-child a{
+   /* outline: 1px solid red; */
+   border-bottom: 3px solid #016CBA;
 }
 
 
