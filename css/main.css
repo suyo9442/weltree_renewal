@@ -27,18 +27,30 @@
 
 @media (max-width: 1930px) {
     #wrap {width: 100%;}
+    #visual{width: 100%;}
+    #header{width: 100%;}
+    #footer{width: 100%;}
 }
 /* 화면 너비 0~1200px (20px은 오차범위) */
  @media (max-width: 1220px) {
     #wrap {width: 100%;}
+    #visual{width: 100%;}
+    #header{width: 100%;}
+    #footer{width: 100%;}
 }
  /* 화면 너비 0~768px */
 @media (max-width: 768px) {
     #wrap {width: 100%;}
+    #visual{width: 100%;}
+    #header{width: 100%;}
+    #footer{width: 100%;}
 }
  /* 화면 너비 0~480px */
 @media (max-width: 480px) {
     #wrap {width: 100%;}
+    #visual{width: 100%;}
+    #header{width: 100%;}
+    #footer{width: 100%;}
 }
 
 
@@ -581,9 +593,3 @@
     padding-left: 6px;
 }
 
-
-/* 헤더 배경 */
-#header .container1500 {
-    /* outline: 1px solid red; */
-    /* background-image:url('../img/menu.jpg') */
-}

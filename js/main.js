@@ -2,7 +2,9 @@ $(function(){
     var $firstMenu = $('nav > ul.depth1 > li'),
         $header = $('#header .container1500'),
         $logo = $('#header .container1200 > a > .logo'),
-        $depth1 = $('#header nav > ul.depth1 > li > a')
+        $depth1 = $('#header nav > ul.depth1 > li > a'),
+        $depth2 = $('#header nav ul.depth2 > li > a')
+
 
         $firstMenu.hover(
             function(){
@@ -14,6 +16,7 @@ $(function(){
                     background:"url('./img/header_logo2.png')"
                 }),
                 $depth1.css("color","#000")
+                $depth2.css("display","inline-block")
             },
             function(){
                 $header.css({
@@ -24,6 +27,7 @@ $(function(){
                     background:"url('./img/header_logo1.png')"
                 }),
                 $depth1.css("color","#fff")
+                $depth2.css("display","none")
             }
         )
 
