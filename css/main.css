@@ -297,7 +297,7 @@
     width: 1500px;
     height: 100%;
     margin: 0 auto;
-    background-image: url('../img/main/content2_bg.png');
+    background-image: url('../img/main/content2_bg.jpg');
 }
 #content2 .container1200 {
     width: 1200px; height: inherit;
@@ -329,7 +329,7 @@
 }
 #content2 .box .top div:nth-child(1) {
     width: 489px; height: 326px;
-    background-image: url('../img/main/content2_1.png');
+    background-image: url('../img/main/content2_1.jpg');
     margin-top: 155px;
     margin-right: 10px;
 }
@@ -346,17 +346,17 @@
 }
 #content2 .box .bottom div:nth-child(1) {
     width: 594px; height: 372px;
-    background-image: url('../img/main/content2_3.png');
+    background-image: url('../img/main/content2_3.jpg');
     margin-top: 1px;
 }
 #content2 .box .bottom div:nth-child(2) {
     width: 518px; height: 345px;
-    background-image: url('../img/main/content2_4.png');
+    background-image: url('../img/main/content2_4.jpg');
     margin-left: 10px;
 }
 /* 호버 */
 #content2 .box .top div:nth-child(1):hover {
-    background-image: url('../img/main/trans1.png');
+    background-image: url('../img/main/trans1.jpg');
     transition-duration: 0.5s;
 }
 #content2 .box .top div:nth-child(2):hover {
@@ -364,11 +364,11 @@
     transition-duration: 0.5s;
 }
 #content2 .box .bottom div:nth-child(1):hover {
-    background-image: url('../img/main/trans3.png');
+    background-image: url('../img/main/trans3.jpg');
     transition-duration: 0.5s;
 }
 #content2 .box .bottom div:nth-child(2):hover {
-    background-image: url('../img/main/trans4.png');
+    background-image: url('../img/main/trans4.jpg');
     transition-duration: 0.5s;
 }
 /* 텍스트 */
@@ -419,25 +419,25 @@
     text-align: center;
 }
 #content3 .box1 {
-    background-image: url('../img/main/content2_5.png');
+    background-image: url('../img/main/content2_5.jpg');
 }
 #content3 .box2 {
-    background-image: url('../img/main/content2_6.png');
+    background-image: url('../img/main/content2_6.jpg');
 }
 #content3 .box3 {
-    background-image: url('../img/main/content2_7.png');
+    background-image: url('../img/main/content2_7.jpg');
 }
 /* 호버 */
 #content3 .box1:hover {
-    background-image: url('../img/main/trans5.png');
+    background-image: url('../img/main/trans5.jpg');
     transition-duration: 0.5s;
 }
 #content3 .box2:hover {
-    background-image: url('../img/main/trans6.png');
+    background-image: url('../img/main/trans6.jpg');
     transition-duration: 0.5s;
 }
 #content3 .box3:hover {
-    background-image: url('../img/main/trans7.png');
+    background-image: url('../img/main/trans7.jpg');
     transition-duration: 0.5s;
 }
 /* 텍스트 */
@@ -587,3 +587,68 @@
     /* outline: 1px solid red; */
     /* background-image:url('../img/menu.jpg') */
 }
+
+
+
+/* .scroll_down animate */
+.shake-vertical {
+	-webkit-animation: shake-vertical 6s cubic-bezier(0.455, 0.030, 0.515, 0.955) both;
+	        animation: shake-vertical 6s cubic-bezier(0.455, 0.030, 0.515, 0.955) both;
+}
+@-webkit-keyframes shake-vertical {
+    0%,
+    100% {
+      -webkit-transform: translateY(0);
+              transform: translateY(0);
+    }
+    10%,
+    30%,
+    50%,
+    70% {
+      -webkit-transform: translateY(-8px);
+              transform: translateY(-8px);
+    }
+    20%,
+    40%,
+    60% {
+      -webkit-transform: translateY(8px);
+              transform: translateY(8px);
+    }
+    80% {
+      -webkit-transform: translateY(6.4px);
+              transform: translateY(6.4px);
+    }
+    90% {
+      -webkit-transform: translateY(-6.4px);
+              transform: translateY(-6.4px);
+    }
+  }
+  @keyframes shake-vertical {
+    0%,
+    100% {
+      -webkit-transform: translateY(0);
+              transform: translateY(0);
+    }
+    10%,
+    30%,
+    50%,
+    70% {
+      -webkit-transform: translateY(-8px);
+              transform: translateY(-8px);
+    }
+    20%,
+    40%,
+    60% {
+      -webkit-transform: translateY(8px);
+              transform: translateY(8px);
+    }
+    80% {
+      -webkit-transform: translateY(6.4px);
+              transform: translateY(6.4px);
+    }
+    90% {
+      -webkit-transform: translateY(-6.4px);
+              transform: translateY(-6.4px);
+    }
+  }
+  
